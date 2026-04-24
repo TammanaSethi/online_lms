@@ -7,7 +7,7 @@ import { IoIosPlayCircle } from "react-icons/io";
 import { setSelectedCourse } from "../redux/courseSlice";
 
 const ViewLecture = () => {
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://online-lms-xnob.onrender.com";
   const { courseId } = useParams();
   const { selectedCourse } = useSelector((state) => state.course);
   const navigate = useNavigate();
