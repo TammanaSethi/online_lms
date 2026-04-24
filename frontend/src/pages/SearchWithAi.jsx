@@ -14,7 +14,7 @@ const SearchWithAi = () => {
   const [recommendation, setRecommendation] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://online-lms-xnob.onrender.com";
 
   // 🎤 Speech API
   const SpeechRecognition =
