@@ -27,7 +27,7 @@ const ViewCourse = () => {
   const [loading, setLoading] = useState(false);
 
   const { userData } = useSelector((state) => state.user);
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://online-lms-xnob.onrender.com";
   useEffect(() => {
     const handlecreator = async () => {
       if (selectedCourse?.creater) {
