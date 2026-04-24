@@ -10,7 +10,7 @@ import { FaEdit } from "react-icons/fa";
 
 const CreateLecture = () => {
   console.log("URL:", window.location.pathname);
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://online-lms-xnob.onrender.com";
 
   const { courseId } = useParams();
   console.log(courseId);
