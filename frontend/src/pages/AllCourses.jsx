@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Nav from "../component/Nav";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import ai from "../assets/searchAi.png";
+import ai from "../assets/SearchAi.png";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import Card from "../component/Card";
