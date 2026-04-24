@@ -9,7 +9,7 @@ const SignUp = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://online-lms-xnob.onrender.com";
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
