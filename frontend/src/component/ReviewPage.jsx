@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
-import ReviewCard from "./reviewCard";
+import ReviewCard from "./ReviewCard";
 
 import {
   setReviewData,
