@@ -4,7 +4,7 @@ import axios from "axios"
 import { toast } from "react-toastify"
 import { ClipLoader } from "react-spinners"
 
-const serverUrl = "http://localhost:8000"
+const serverUrl = "https://online-lms-xnob.onrender.com"
 
 const ForgetPassword = () => {
   const [step, setStep] = useState(1)
